@@ -1,0 +1,43 @@
+.page-header .custom-div {
+	margin-top: 5vh;
+	/*margin-left: -5vw;*/
+	text-align: center;
+	width : 100%;
+}
+.page-header .custom-h1 {
+    line-height : 1;
+	vertical-align:  center;
+	font-size : 2.75rem;
+	/*height : 75vh;*/
+}
+.page-header .custom-span {
+    color : #ff8d72;
+    font-weight : 650;
+	/*text-transform: uppercase;*/
+}
+.far {
+	/*font-family: 'themify';*/
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.25rem;
+	line-height: .5;
+	padding-right: .75rem; 
+	-webkit-font-smoothing: antialiased;
+}
+#header-button:before {
+    background: none repeat scroll 0 0 #000000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+/*.far:before {
+    content: "\f358";  
+}*/

@@ -1,0 +1,97 @@
+h5#skills:before {
+    content: '';
+    height: 4px;
+    width: 5vw;
+    background: white;
+    opacity: 0.7;
+    position: absolute;
+    left: 47%;
+    top: 120%;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1.5vw;
+  /*max-height: 100vh;*/
+  max-width: 100%;
+      grid-template-columns: repeat(3, minmax(30vw, 1fr));
+    grid-template-rows: repeat(4, minmax(30vh, 1fr));
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.diamond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  width: 10em;
+  height: 10em;
+  border-radius: 15px;
+  border: 5px solid var(--success);
+  box-shadow: 3px 3px 0px rgba(0,0,0,0.3);
+  background-image: linear-gradient(to top left, #ddd 0%, #fff 100%);
+  opacity: 1;
+  text-align: center;
+  transform-origin: center;
+  transform: rotateZ(45deg);
+  transition: box-shadow 250ms, transform 250ms;
+}
+.diamond span {
+  font-weight: bold;
+  transform: rotateZ(-45deg)
+}
+.grid .item:hover .diamond,
+.grid .item:focus .diamond {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  transform:  rotateZ(45deg) scale(1.2);
+}
+.grid .item {
+  position: relative;
+  border-radius: 12px;
+  padding: 1vw;
+  background-position:  left bottom;
+  background-size: 150% 100%;
+  transition: background 500ms, outline 500ms;
+  background-position: top left;
+  outline: transparent;
+  /*background-image: linear-gradient(45deg, #00F2C3 0%, #009F80 60%, #00F2C3 80%);*/
+  background: url('./images/background.jpg') no-repeat 0 0 / 100% 100% #000;
+  background-size: cover!important;
+  background-attachment: fixed!important;
+  width: 100%;
+  z-index: 0 ;
+  transition: all 0.5s ease 0s;
+}
+
+.grid .item:before {
+  background: none repeat scroll 0 0 #000000;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.55;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.grid .item:hover,
+.grid .item:focus {
+  background-position: top right;
+}
+
+.grid .item:focus {
+  outline: 2px solid #3eabfa;
+}
+@media (max-width: 1000px) {
+  .diamond {
+    width: 5em;
+    height: 5em;
+  }
+
+}
