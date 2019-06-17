@@ -14,8 +14,8 @@ const myProjects = [
 	imgSrc: 'personal-website-project',
 	title: 'Personal Website',
 	website: 'UNKNOWN',
-	description: `A full-stack working website showcasing my personal information. The website was designed and coded by me with credits to "Creative Tim" website.`,
-	skills: 'REACT.js , tachyons , NODE.js , EXPRESS.js , PostgreSQL',
+	description: `A working website showcasing my personal information. The website was designed and coded by me with credits to "Creative Tim" website.`,
+	skills: 'REACT.js , tachyons ',
 	tag: '[all, big]'
 },
 {

@@ -17,8 +17,6 @@ const Map = Styled.div`
 }		
 `;
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
 class ContactGoogleMap extends Component {
   static defaultProps = {
     center: {
@@ -28,11 +26,6 @@ class ContactGoogleMap extends Component {
     language: 'eng',
     zoom: 15
   };
-
-
-    constructor(props) {
-	    super(props);
-	}
 
   render() {
     return (

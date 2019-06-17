@@ -61,7 +61,7 @@ h5#skills:before {
   background-position: top left;
   outline: transparent;
   /*background-image: linear-gradient(45deg, #00F2C3 0%, #009F80 60%, #00F2C3 80%);*/
-  background: url('./images/background.jpg') no-repeat 0 0 / 100% 100% #000;
+  background: url('../../assets/img/Skills/background.jpg') no-repeat 0 0 / 100% 100% #000;
   background-size: cover!important;
   background-attachment: fixed!important;
   width: 100%;

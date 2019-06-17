@@ -4,7 +4,7 @@ import ResumeButton from '../ResumeButton/ResumeButton';
 // reactstrap components
 import { Container } from "reactstrap";
 import './PageHeader.css'
-import HeaderImage from './header-background.jpg'
+import HeaderImage from '../../assets/img/Header/header-background.jpg'
 
 import Styled from 'styled-components';
 

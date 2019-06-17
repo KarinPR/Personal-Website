@@ -12,13 +12,13 @@ const Skills = () => {
 				<div className = 'grid'>
 					{
 						mySkills.map((skill, index) => {
-							const image = require(`./images/${skill}.png`)
+							const image = require(`../../assets/img/Skills/${skill}.png`)
 							return (
 								<div className = 'item' key = {index}  > 
 										<div className = 'box '> 
 											<div className = 'diamond '> 
 												<span > 
-													<img src = {image} style = {{ height: '8vh', transform: 'rotateZ(0deg)'}} className="db br2 w-100 center" alt="Photo Project" />   
+													<img src = {image} style = {{ height: '8vh', transform: 'rotateZ(0deg)'}} alt = {skill} className="db br2 w-100 center"  />   
 												</span> 
 											</div> 
 										</div>

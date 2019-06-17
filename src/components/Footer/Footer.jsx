@@ -15,28 +15,28 @@ const Footer = () => {
 							<div className = 'tc box h1 v-btm pt4 ' >
 								{/*LinkedIn*/}
 								<div className = 'tc br-100 mh3' style = {{backgroundColor: 'var(--success)', opacity: '0.9', height: '2.5rem', width: '2.3rem' }}>
-									<a className="  " href="https://www.linkedin.com/in/karin-povolozki-rabichev-690456187/" target="_blank" title="LinkedIn">
-									<i class="fab fa-linkedin" style = {{fontSize: '1.5rem', color: 'rgba(0, 0, 0, 0.7)'}}></i>
+									<a className = "  " href="https://www.linkedin.com/in/karin-povolozki-rabichev-690456187/" target="_blank"  rel="noopener noreferrer" title="LinkedIn">
+									<i className = "fab fa-linkedin" style = {{fontSize: '1.5rem', color: 'rgba(0, 0, 0, 0.7)'}}></i>
 							    	{/*<span className="f6 db"></span>*/}
 							  		</a>
 							  	</div>
 								{/*GitHub*/}
 								<div className = 'tc br-100 mh3' style = {{backgroundColor: 'var(--success)', opacity: '0.9', height: '2.5rem', width: '2.3rem' }}>		
-									<a className="" href="https://github.com/KarinPR" target="_blank" title="GitHub">
-									<i class="fab fa-github" style = {{fontSize: '1.5rem', color: 'rgba(0, 0, 0, 0.7)'}}></i>							    
+									<a className="" href="https://github.com/KarinPR" target="_blank"  rel="noopener noreferrer" title="GitHub">
+									<i className="fab fa-github" style = {{fontSize: '1.5rem', color: 'rgba(0, 0, 0, 0.7)'}}></i>							    
 									</a>
 								</div>
 								{/*E-mail*/}
 								<div className = 'tc br-100 mh3' style = {{backgroundColor: 'var(--success)', opacity: '0.9', height: '2.5rem', width: '2.3rem' }}>
-									<a className="" href="mailto:vk4ursrvs@gmail.com" target="_blank" title="Gmail">
-										<i class="fas fa-envelope-square" style = {{fontSize: '1.5rem', color: 'rgba(0, 0, 0, 0.7)'}}></i>
+									<a className="" href="mailto:vk4ursrvs@gmail.com" target="_blank"  rel="noopener noreferrer" title="Gmail">
+										<i className="fas fa-envelope-square" style = {{fontSize: '1.5rem', color: 'rgba(0, 0, 0, 0.7)'}}></i>
 									</a>
 								</div>
 							</div>
 						</Col>
 						<Col lg = '12'>
 							<div className = 'tc white o-80 tracked'>
-							&copy; 2019, Designed and Coded by <span style = {{color: 'var(--success)'}}> Karin Povolozki - Rabichev </span>
+							&copy; 2019, Designed and Coded by <span style = {{color: 'var(--success)', fontWeight: '900'}}> Karin Povolozki - Rabichev </span>
 							<br/>
 							Credit to <a className = 'white' href="https://www.creative-tim.com/" title="Creative Tim" target="_blank" rel="noopener noreferrer" > Creative Tim</a>
 							</div>		

@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 // core components
 import Navbar from "components/Navbars/Navbar.jsx";
@@ -40,5 +39,4 @@ class App extends React.Component {
     );
   }
 }
-
 export default App;

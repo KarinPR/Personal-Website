@@ -6,8 +6,8 @@ const ImageCard = ( {imgSrc, title, website, description, skills, onClick,  isMo
 	return (
 		<div className = 'mh4 mh2-m ml4-m'>
 			<div className="br2 ba dark-gray b--black-10 mw7 mb5-m">
-				<a  target="_blank" onClick = {onClick} href= {website}> 
-					<img src = {require(`../Projects/images/${imgSrc}.jpg`)}  style = {{ height: '200px', border: '2px solid var(--success)'}} className="db br2 w-100 center" alt="Photo Project" />
+				<a  target="_blank"  rel="noopener noreferrer"  onClick = {onClick} href= {website}> 
+					<img src = {require(`../../assets/img/Projects/${imgSrc}.jpg`)}  style = {{ height: '200px', border: '2px solid var(--success)'}} className="db br2 w-100 center" alt="Project" />
 				</a>
 				<div className=" ph0-ns pt3-ns">
 					<div className="dt w-100 mt1 ">

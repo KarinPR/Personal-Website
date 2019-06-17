@@ -44,7 +44,6 @@ class Carousel extends React.Component {
 
     this.refs.wrapper.addEventListener('touchmove', this.onTouchMove, {capture: true})
     this.refs.wrapper.addEventListener('touchend', this.onTouchEnd, {capture: true})
-    console.log(this.refs.wrapper.style)
   }
 
   componentWillUnmount () {

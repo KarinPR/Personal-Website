@@ -14,7 +14,7 @@ import {
 } from "reactstrap";
 
 import GoogleMap from './ContactGoogleMap';
-import ContactImage from './contact-background.jpg'
+import ContactImage from '../../assets/img/Contact/contact-background.jpg'
 
 import Styled from 'styled-components';
 
@@ -160,7 +160,6 @@ class Contact extends React.Component {
   }
 
 	componentDidMount() {
-		console.log('hello from section contact');
 	}
 
   onMassegeChange = (event) => {

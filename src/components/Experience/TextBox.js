@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const TextBox = ( {imgSrc, title , time, content} ) => {
-	const image = require(`../Experience/images/${imgSrc}.jpg`)
+	const image = require(`../../assets/img/Experience/${imgSrc}.jpg`)
 	return (
         <div className = "work blacky fl w-100 ph0 relative ">
             <div className = "parallax h-100 ma0 br4 absolute left-0-ns top-0-ns" style = {{background: `url(${image}) no-repeat 0 0 / 100% 100% #000`}} ></div>
@@ -13,7 +13,6 @@ const TextBox = ( {imgSrc, title , time, content} ) => {
                 	<ul className = 'list'>
                 		{
                 			content.map( (item, index) => {
-                				console.log(item)
                 				return <li key = {index}  style = {{textIndent: '-1.75em'}}><i className = "far fa-hand-point-right lh-solid"></i> {item} </li>
                 			})
                 		}

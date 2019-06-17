@@ -12,7 +12,7 @@ const ResumeButton = () => {
 		      size="lg"
 		    >
 		    <i className="far fa-arrow-alt-circle-down display-none"> </i>
-		      <a href="resume.pdf" className = 'white fw9 ' id = 'resume'> Download My Resume </a>
+		      <a href="./CV - Karin 2019.pdf" download="Karin_Povolozki-Rabichev" target="_blank" rel="noopener noreferrer" className = 'white fw9 ' id = 'resume'> Download My Resume </a>
 		    </Button>
 	    </div>   
 	);

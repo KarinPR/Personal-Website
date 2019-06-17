@@ -2,10 +2,8 @@ import React from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import { CustomRightArrow, CustomLeftArrow } from './CustomArrow'
-
 import ImageCard from './ImageCard'
-import backgroundImage from './images/projects-background.jpg'
+import backgroundImage from '../../assets/img/Projects/projects-background.jpg'
 import myProjects from './myProjects'
 
 import classnames from "classnames";

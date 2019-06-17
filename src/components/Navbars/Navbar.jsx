@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import ResponsiveMenu from 'react-responsive-navbar';
 import styled from 'styled-components';
@@ -52,9 +51,6 @@ const Menu = styled.div`
   }
 `;
 
-const defaultTabs = {
-
-}
 
 class PagesNavbar extends React.Component {
   constructor(props) {
@@ -81,7 +77,6 @@ class PagesNavbar extends React.Component {
   onScrollChange = () => {
     let scroll = window.scrollY;
     let width = window.outerWidth;
-    console.log(width)
 
     if (width > 1500) {
       if (scroll >= 0 && scroll < 900) {
@@ -186,7 +181,6 @@ class PagesNavbar extends React.Component {
         })
       }  
     }
-    console.log(scroll)
   }
 
 

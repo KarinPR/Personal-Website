@@ -19,11 +19,11 @@ const myExperience = [
 	id: 2,
 	// imgSrc: `../Projects/images/faceRecognition-image.jpg`,
 	imgSrc: `background-1`,
-	title: 'R&D Reasercher in a lab',
+	title: 'R&D Reasercher in a drug company',
 	time: '2012 - 2014',
 	content: 
 	[
-		'Manging analytical projects from drug formulation to implementing the analycal research method in the lab',
+		'Manging analytical projects from drug formulation to implementing the analytical research method in the lab',
 		'Constructing experiments for drug characterization',
 		"Working in a dynamic work enviroment and short deadlines",
 	],

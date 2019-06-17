@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+
 
 import classnames from "classnames";
 import {
@@ -17,11 +17,10 @@ import {
 } from "reactstrap";
 
 import styled from 'styled-components';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import WhatCarousel from '../Carousel/mainApp';
 import ResumeButton from '../ResumeButton/ResumeButton';
 
-import backImage from './aboutme.jpg'
+import backImage from '../../assets/img/About/aboutme.jpg'
 import './About.css';
 
 const AboutMe = styled.div`
@@ -134,7 +133,6 @@ class About extends React.Component {
 	}
 
 	render() {
-		console.log(window.location.href)
 		return (
 	        <AboutMe className="section w-100 h-100 " id = 'about-me'>
 		        <div className = "back-image w-100 pb5 min-h-100-m">

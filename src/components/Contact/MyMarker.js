@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 
-import MarkerStyle from './MyMarker-Styles.css';
-
 class MyMarker extends Component {
 
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		return (
