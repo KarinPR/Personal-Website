@@ -160,7 +160,7 @@ class Projects extends React.Component {
                 <Card className="bg-inherit br4 pt1 mt4 z-2 1 w-100 " style = {{border: 'none'}}>
                   <CardBody className = 'bg-darker w-100 o-80 pv3 h-auto-m br4 ph0 pv1-m '>
                     <Nav
-                      className=" flex nav-tabs-primary justify-around-l f4 pl5 justify-center-ns"
+                      className=" flex nav-tabs-primary justify-center justify-around-l f4 pl5 justify-center-ns tc"
                       tabs
                     >
                       <NavItem>

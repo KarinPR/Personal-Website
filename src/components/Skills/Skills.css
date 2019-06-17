@@ -90,8 +90,17 @@ h5#skills:before {
 }
 @media (max-width: 1000px) {
   .diamond {
-    width: 5em;
-    height: 5em;
+    width: 6em;
+    height: 6em;
+  }
+
+}
+@media (max-width: 500px) {
+  .diamond {
+    transition: all .1s ease 0s;
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
   }
 
 }
