@@ -13,7 +13,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-import GoogleMap from './ContactGoogleMap';
+// import GoogleMap from './ContactGoogleMap';
 import ContactImage from '../../assets/img/Contact/contact-background.jpg'
 
 import Styled from 'styled-components';
@@ -190,8 +190,8 @@ class Contact extends React.Component {
         <div className = 'w-100 pa0'>
           <div className = 'back-image center-m'>
             <Row className = 'contact-form map box justify-around '>    	
-              <Col lg = '6' md="8" sm = '12'>
-                <Card className="card-plain mv3 pv3 mh5 ph4-m" style = {{marginTop: '2.4vh'}}>
+              <Col lg = '8' md="12" sm = '12'>
+                <Card className="card-plain mv3 pv3 mv0-m pv1-m" style = {{marginTop: '2.4vh'}}>
                   <CardHeader>
                     <h5 className="text-on-back tc mt3" id = 'contact' >Contact me</h5>
                   </CardHeader>
@@ -267,11 +267,11 @@ class Contact extends React.Component {
                   </CardBody>
                 </Card>
               </Col>
-              <Col lg = '4' md = '4' sm = '12' className = 'map-style self-center'>
+             {/*} <Col lg = '4' md = '4' sm = '12' className = 'map-style self-center'>
                 <div className = 'mb5-ns' style = {{marginTop: 'calc(50% - 1.5vh)'}}>
                   <GoogleMap />
                 </div>
-              </Col>
+              </Col>*/}
             </Row>
           </div>
         </div>

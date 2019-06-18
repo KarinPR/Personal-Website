@@ -412,7 +412,7 @@ Carousel.defaultProps = {
   auto: true,
   loop: true,
   interval: 5000,
-  duration: 300,
+  duration: 500,
   minMove: 42
 }
 

@@ -13,7 +13,7 @@ const myProjects = [
 	id: 2,
 	imgSrc: 'personal-website-project',
 	title: 'Personal Website',
-	website: 'UNKNOWN',
+	website: 'https://karin-personal-website.herokuapp.com/',
 	description: `A working website showcasing my personal information. The website was designed and coded by me with credits to "Creative Tim" website.`,
 	skills: 'REACT.js , tachyons ',
 	tag: '[all, big]'

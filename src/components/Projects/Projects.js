@@ -235,7 +235,7 @@ class Projects extends React.Component {
                                     title = {project.title}
                                     description = {project.description}
                                     skills = {project.skills}
-                                    onClick = {event => { if (this.state.isMoving) {event.preventDefault()}}}
+                                    // onClick = {event => { if (this.state.isMoving && this.state.) {event.preventDefault()}}}
                                     isMoving = {this.state.isMoving}
                                   />
                                 )
@@ -278,7 +278,7 @@ class Projects extends React.Component {
                                     title = {project.title}
                                     description = {project.description}
                                     skills = {project.skills}
-                                    onClick = {event => { if (this.state.isMoving) {event.preventDefault()}}}
+                                    // onClick = {event => { if (this.state.isMoving) {event.preventDefault()}}}
                                     isMoving = {this.state.isMoving}
                                   />
                                 )
@@ -321,7 +321,7 @@ class Projects extends React.Component {
                                     title = {project.title}
                                     description = {project.description}
                                     skills = {project.skills}
-                                    onClick = {event => { if (this.state.isMoving) {event.preventDefault()}}}
+                                    // onClick = {event => { if (this.state.isMoving) {event.preventDefault()}}}
                                     isMoving = {this.state.isMoving}
                                   />
                                 )

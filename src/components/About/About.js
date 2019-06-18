@@ -249,7 +249,7 @@ class About extends React.Component {
 						                              <tr>
 						                                <td className = 'why'> 
 						                                	Code Debbuging is hard. Managing eleborate projects is hard. Learning new features is hard.
-						                                	Go a head and see <span> HOW </span> I can do to ease the pain.
+						                                	Go ahead and see <span> HOW </span> I can ease the pain.
 						                                </td>
 						                              </tr>
 						                            </tbody>
