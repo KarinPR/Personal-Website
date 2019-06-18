@@ -19,7 +19,7 @@ const myExperience = [
 	id: 2,
 	// imgSrc: `../Projects/images/faceRecognition-image.jpg`,
 	imgSrc: `background-1`,
-	title: 'R&D Reasercher in a drug company',
+	title: 'R&D Reasercher in a Pharmaceutical Company',
 	time: '2012 - 2014',
 	content: 
 	[
