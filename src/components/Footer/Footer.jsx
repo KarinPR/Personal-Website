@@ -28,7 +28,7 @@ const Footer = () => {
 								</div>
 								{/*E-mail*/}
 								<div className = 'tc br-100 mh3' style = {{backgroundColor: 'var(--success)', opacity: '0.9', height: '2.5rem', width: '2.3rem' }}>
-									<a className="" href="mailto:vk4ursrvs@gmail.com" target="_blank"  rel="noopener noreferrer" title="Gmail">
+									<a className="" href="mailto:karinpo.rab@gmail.com" target="_blank"  rel="noopener noreferrer" title="Gmail">
 										<i className="fas fa-envelope-square" style = {{fontSize: '1.5rem', color: 'rgba(0, 0, 0, 0.7)'}}></i>
 									</a>
 								</div>
