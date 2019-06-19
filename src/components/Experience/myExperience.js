@@ -25,7 +25,7 @@ const myExperience = [
 	[
 		'Managing analytical projects from drug formulation to implementing the analytical research method in the lab',
 		'Constructing experiments for drug characterization',
-		"Working in a dynamic work enviroment and short deadlines",
+		"Working in a dynamic work environment and short deadlines",
 	],
 },
 {
@@ -37,7 +37,7 @@ const myExperience = [
 	content: 
 	[
 		'Calculating the catalytic proficiency of an enzyme using Matlab, Perl, C, and C++ coding',
-		"During my Master's degree I had a course in programming C and C++",
+		"During my Master's degree, I had a course in C and C++ programming",
 	],
 },
 ];
