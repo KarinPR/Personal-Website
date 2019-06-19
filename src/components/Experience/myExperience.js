@@ -11,7 +11,7 @@ const myExperience = [
 		'Solving software problems for clients by phone and on site',
 		"Creating custom reports according to client's desire using python",
 		'From zero to training the Mass-Spectroscopy instruments in less than 6 months',
-		'Working in a team supporting sales and technical teams'
+		'Supporting sales teams and technical teams'
 
 	],
 },
