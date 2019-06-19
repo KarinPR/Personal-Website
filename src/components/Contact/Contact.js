@@ -151,7 +151,7 @@ class Contact extends React.Component {
   constructor(props) {
   super(props)
     this.state = {
-      myEmail: 'vk4ursrvs@gmail.com',
+      myEmail: 'karinpo.rab@gmail.com',
       email: '',
       massege: '',
       name: '',

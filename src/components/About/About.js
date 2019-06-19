@@ -228,7 +228,7 @@ class About extends React.Component {
 							                            <tr>
 							                                <td><i className="far fa-envelope display-none"></i>Email</td>
 							                                <td> : </td>
-							                                <td> <span>vk4ursrvs @ gmail.com</span> </td>
+							                                <td> <span>karinpo.rab @ gmail.com</span> </td>
 							                            </tr>
 							                            <tr>
 							                                <td><i className="fas fa-mobile-alt display-none"></i>Phone</td>

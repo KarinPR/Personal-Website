@@ -79,7 +79,7 @@ class PagesNavbar extends React.Component {
     let width = window.outerWidth;
 
     if (width > 1500) {
-      if (scroll >= 0 && scroll < 900) {
+      if (scroll >= 0 && scroll < 800) {
         this.setState ({ 
           tabColor1 : '',
           tabColor2 : '',
@@ -87,7 +87,7 @@ class PagesNavbar extends React.Component {
           tabColor4 : '',
           tabColor5 : '',
         })
-      } else if (scroll >= 900 && scroll < 2000) {
+      } else if (scroll >= 800 && scroll < 1900) {
         this.setState({ 
           tabColor1: 'text-success' ,
           tabColor2 : '',
@@ -95,7 +95,7 @@ class PagesNavbar extends React.Component {
           tabColor4 : '',
           tabColor5 : '',
         })
-      } else if (scroll >= 2000 && scroll < 3500) {
+      } else if (scroll >= 1900 && scroll < 3300) {
         this.setState({ 
           tabColor1: '' , 
           tabColor2: 'text-success' , 
@@ -103,7 +103,7 @@ class PagesNavbar extends React.Component {
           tabColor4 : '',
           tabColor5 : '',
         })
-      } else if (scroll >= 3500 && scroll < 4650) {
+      } else if (scroll >= 3300 && scroll < 4450) {
         this.setState({ 
           tabColor1: '' , 
           tabColor2: '' , 
@@ -111,7 +111,7 @@ class PagesNavbar extends React.Component {
           tabColor4: '',
           tabColor5 : '',
         })
-      } else if (scroll >= 4650 && scroll < 6100) {
+      } else if (scroll >= 4450 && scroll < 5800) {
         this.setState({
           tabColor1: '' , 
           tabColor2: '' , 
@@ -119,7 +119,7 @@ class PagesNavbar extends React.Component {
           tabColor4: 'text-success' , 
           tabColor5: ''
         })
-      } else if (scroll >= 6100) {
+      } else if (scroll >= 5800) {
         this.setState({ 
           tabColor1: '' , 
           tabColor2: '' , 
@@ -155,7 +155,7 @@ class PagesNavbar extends React.Component {
           tabColor4 : '',
           tabColor5 : '',
         })
-      } else if (scroll >= 2513 && scroll < 3809) {
+      } else if (scroll >= 2513 && scroll < 3609) {
         this.setState({ 
           tabColor1: '' , 
           tabColor2: '' , 
@@ -163,7 +163,7 @@ class PagesNavbar extends React.Component {
           tabColor4: '',
           tabColor5 : '',
         })
-      } else if (scroll >= 3809 && scroll < 5109) {
+      } else if (scroll >= 3609 && scroll < 4809) {
         this.setState({
           tabColor1: '' , 
           tabColor2: '' , 
@@ -171,7 +171,7 @@ class PagesNavbar extends React.Component {
           tabColor4: 'text-success' , 
           tabColor5: ''
         })
-      } else if (scroll >= 5109) {
+      } else if (scroll >= 4809) {
         this.setState({ 
           tabColor1: '' , 
           tabColor2: '' , 

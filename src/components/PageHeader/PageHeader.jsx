@@ -41,40 +41,16 @@ const HeaderStyle = Styled.div`
   h1, h2, .btn {
     z-index: 4;
   }
-
-//   @media (max-width: 1200px) {
-//     .container {
-//         width: 1170px;
-//     }
-//     h1 {
-//       font-size: 5rem;
-//     } 
-//   }
-// @media (max-width: 992px) {
-//   .container {
-//       width: 970px;
-//   }
-
-// }
-// @media (max-width: 768px) {
-//   .container {
-//       width: 750px;
-//   }
-//   h1 {
-//     font-size: .2rem;
-//   }
-//   h2 {
-//     font-size: .1rem;
-//   } 
-
 }
 
 `;
 
 class PageHeader extends React.Component {
+
   render() {
     return (
-      <HeaderStyle className="section w-100 h-100 pv5 bg-black pv2-m" id = 'top'>
+
+      <HeaderStyle className="section w-100 h-100 pv4 bg-black pv2-m" id = 'top'>
         <div className = "image w-100 min-h-100-m ">
           <Container className="mr-auto ml-auto pv6">
 
