@@ -61,7 +61,7 @@ class PageHeader extends React.Component {
                 src={require("assets/img/mike.jpg")}
               />
               <h1 className="w-100 fw9 mb3 f1-l"> Karin Povolozki-Rabichev </h1> 
-              <h2>  <span className = 'custom-span text-success f2-l fw9 f7-m f7-ns'> Self-thought Full-Stack Developer </span> </h2>
+              <h2>  <span className = 'custom-span text-success f2-l fw9 f7-m f7-ns'> Full-Stack Developer </span> </h2>
               <ResumeButton id = 'header-button z-100' className = 'z-100'/>         
             </div>
           </Container>
