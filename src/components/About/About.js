@@ -152,7 +152,7 @@ class About extends React.Component {
 										In order to discover where my path will lead- I started coding. I have several projects that I worked on. For a sneak peek, feel free to visit my <span><a className = 'github' href = 'https://github.com/KarinPR'>GitHub</a></span> page. 	
 									</p>
 									<p>
-										I am currently unemployed and looking for my first position as a <span> FULL-STACK, FRONT-END, BACK-END DEVELOPER</span>, in the meantime, gaining useful knowledge and experience. When I'm not studying or working on projects I enjoy playing with my two kids (5 and 2/3), taking a walk, and occasionally still play video games with my husband. Although, with two young kids and a fierce desire to become a developer, there is less and less time for gaming. 
+										I am currently unemployed and looking for my first position as a <span> FULL - STACK / FRONT - END / BACK - END DEVELOPER</span>, in the meantime, gaining useful knowledge and experience. When I'm not studying or working on projects I enjoy playing with my two kids (5 and 2/3), taking a walk, and occasionally still play video games with my husband. Although, with two young kids and a fierce desire to become a developer, there is less and less time for gaming. 
 									</p>
 									<p>
 										Anyway, too much talking. Let's get down to business!...
