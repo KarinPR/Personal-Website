@@ -9,7 +9,7 @@ const myExperience = [
 	[
 		'Able to quickly analyze and solved software problems for clients on site and communicate the solution by a phone',
 		'Built custom reports according to client\'s desire using the existing python code',
-		"Quick to learn how to implement complicated analytical instruments when such position opened - in less than 6 months",
+		'Quick to learn how to implement complicated analytical instruments when such position opened - in less than 6 months',
 		'Developed training skills and gave software application support',
 
 	],
