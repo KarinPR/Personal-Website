@@ -206,7 +206,7 @@ class PagesNavbar extends React.Component {
   handleScroll = () => {
     const { prevScrollpos } = this.state;
     const currentScrollPos = window.scrollY;
-    const visible =  10 > Math.abs(prevScrollpos - currentScrollPos);
+    const visible =  1 > Math.abs(prevScrollpos - currentScrollPos);
     this.setState({
       collapseOpen: this.state.collapseOpen,
       prevScrollpos: currentScrollPos,
