@@ -168,7 +168,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #c221a9;
+    /*color: var(--success);*/
     text-decoration: none; }
 
 a:not([href]):not([tabindex]) {
@@ -3314,7 +3314,8 @@ input[type="button"].btn-block {
   .navbar-light .navbar-text a {
     color: rgba(34, 42, 66, 0.9); }
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-      color: rgba(34, 42, 66, 0.9); }
+      /*color: var(--success);*/
+    }
 
 .navbar-dark .navbar-brand {
   color: rgba(255, 255, 255, 0.65); }
@@ -3346,7 +3347,8 @@ input[type="button"].btn-block {
   .navbar-dark .navbar-text a {
     color: rgba(255, 255, 255, 0.65); }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-      color: rgba(255, 255, 255, 0.65); }
+      /*color: rgba(255, 255, 255, 0.65); */
+    }
 
 .card {
   position: relative;
@@ -7251,7 +7253,8 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #00f2c3 !important; }
 
 a.text-success:hover, a.text-success:focus {
-  color: #00bf9a !important; }
+  /*color: #00bf9a !important; */
+}
 
 .text-info {
   color: #1d8cf8 !important; }
@@ -8523,10 +8526,10 @@ fieldset[disabled]
     -o-transition: all 150ms linear;
     -ms-transition: all 150ms linear;
     transition: all 150ms linear; }
-    .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus,
+/*    .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus,
     .bootstrap-select .dropdown-menu.inner li a:hover,
     .bootstrap-select .dropdown-menu.inner li a:focus {
-      background-color: rgba(222, 222, 222, 0.3); }
+      background-color: rgba(222, 222, 222, 0.3); }*/
     .dropdown-menu .dropdown-item.disabled, .dropdown-menu .dropdown-item:disabled,
     .bootstrap-select .dropdown-menu.inner li a.disabled,
     .bootstrap-select .dropdown-menu.inner li a:disabled {
@@ -10155,8 +10158,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #ba54f5;
   font-weight: 300; }
-  a:hover, a:focus {
-    color: #e14eca; }
+/*  a:hover, a:focus {
+    color: #e14eca; }*/
 
 h1, .h1 {
   line-height: 1.05;
@@ -10681,7 +10684,7 @@ hr {
   .fixed-plugin .dropdown-menu > .active > a,
   .fixed-plugin .dropdown-menu > .active > a:hover,
   .fixed-plugin .dropdown-menu > .active > a:focus {
-    color: #777777;
+    /*color: #777777;*/
     text-align: center; }
   .fixed-plugin img {
     border-radius: 0;

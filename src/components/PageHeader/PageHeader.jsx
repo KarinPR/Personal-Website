@@ -57,7 +57,7 @@ class PageHeader extends React.Component {
             <div className="  content-center custom-div tc ">
               <img
                 alt="..."
-                className="img-center img-fluid rounded-circle ba bw3 br-100 w5 w3-m o-100"
+                className="img-center img-fluid rounded-circle ba bw3 br-100 w5 w4-m o-100"
                 src={require("assets/img/mike.jpg")}
               />
               <h1 className="w-100 fw9 mb3 f1-l"> Karin Povolozki-Rabichev </h1> 

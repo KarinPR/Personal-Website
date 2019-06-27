@@ -136,9 +136,9 @@ class About extends React.Component {
 		return (
 	        <AboutMe className="section w-100 h-100 " id = 'about-me'>
 		        <div className = "back-image w-100 pb5 min-h-100-m">
-		            <Container className="align-items-between mw-100-l min-h-100-m">
-		               	<Row className = 'mv5 ph4 overflow-visible ph3-m'>
-			                <Col className = 'aboutme-text  mv3' lg="6" md="12" sm = "12">
+		            <Container className="align-items-between mw-100-l min-h-100-m pl6-l pl3-s">
+		               	<Row className = 'mv5 ph3 overflow-visible ph3-m'>
+			                <Col className = 'aboutme-text mv3' lg = "6" md = "12" sm = "12">
 				                <h1 className="profile-title text-left"> </h1>
 				                <h5 className="text-on-back tc" id= 'about' > About Me</h5>
 				                <div className="profile-description tj fw9 bg-darker pa4 o-80 f5 f7-m z-2" style= {{paddingBottom: '3vh'}}>
@@ -160,8 +160,8 @@ class About extends React.Component {
 			                  	</div>
 			                  	
 				            </Col>
-				            <Col className="mv0 ml6-l ml2-m " lg="4" md="12" sm = "12">
-				                <Card className="card-coin card-plain z-2 bg-darker o-70" style= {{marginTop: '11rem', paddingBottom: '1rem'}}>
+				            <Col className="mv0 ml5-l ml2-m " lg="4" md="12" sm = "12">
+				                <Card className="card-coin card-plain z-2 bg-darker o-70" style= {{marginTop: '11rem', paddingBottom: '1rem', maxWidth:'40rem'}}>
 				                    <CardBody className = 'w-100'>
 				                      <h4 className="title f2 mb4 o-100 flex justify-content-center"> Personal Info </h4>
 				                      	<Nav

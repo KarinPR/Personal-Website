@@ -1,4 +1,5 @@
 import React from "react";
+import classnames from "classnames";
 
 import ResponsiveMenu from 'react-responsive-navbar';
 import styled from 'styled-components';
@@ -19,20 +20,16 @@ const Navbar = styled.div`
   .fa-times-circle {
     padding: 2vh 0;
   }
+  .navbar--hidden {
+    // top: -550px;
+    display: none;
+  }
 `;
 
 const Menu = styled.div`
   border-bottom: 2px solid var(--success);
   word-spacing: 2px;
   letter-spacing: 1px;
-  a.text-success:hover {
-    color: white !important;
-    opacity: .8;
-  }
-  .nav-all, a.nav-item {
-   &:hover {
-      color: var(--success);
-    }
   }
 
   @media (max-width: 1000px) {
@@ -51,7 +48,6 @@ const Menu = styled.div`
   }
 `;
 
-
 class PagesNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -63,7 +59,9 @@ class PagesNavbar extends React.Component {
       tabColor3 : '',
       tabColor4 : '',
       tabColor5 : '',
-      defaultExpanded: true, 
+      defaultExpanded: true,
+      prevScrollpos: window.scrollY,
+      visible: true
     };
   }
 
@@ -73,10 +71,13 @@ class PagesNavbar extends React.Component {
   componentWillUnmount() {
     window.addEventListener("scroll", this.onScrollChange);
   }
+  
 
   onScrollChange = () => {
+
     let scroll = window.scrollY;
     let width = window.outerWidth;
+
 
     if (width > 1500) {
       if (scroll >= 0 && scroll < 800) {
@@ -131,6 +132,7 @@ class PagesNavbar extends React.Component {
     }
 
     if (width < 1550) {
+      this.handleScroll()
       if (scroll >= 0 && scroll < 800) {
         this.setState ({ 
           tabColor1 : '',
@@ -201,19 +203,32 @@ class PagesNavbar extends React.Component {
     });
   };
 
+  handleScroll = () => {
+    const { prevScrollpos } = this.state;
+    const currentScrollPos = window.scrollY;
+    const visible =  10 > Math.abs(prevScrollpos - currentScrollPos);
+    this.setState({
+      collapseOpen: this.state.collapseOpen,
+      prevScrollpos: currentScrollPos,
+      visible
+    });
+  }
+
+
 
   render() {
     return (
       <>
-        <Navbar className={"navDiv fixed-top " + this.state.color} color-on-scroll="100">
+        <Navbar className={ classnames("navDiv fixed-top ",this.state.color )} color-on-scroll="100" >
           <ResponsiveMenu
-            menuOpenButton={<i className = "fas fa-bars" ></i> }
-            menuCloseButton={<i class="fas fa-times-circle"></i> }
-            changeMenuOn="1000px"
-            largeMenuClassName="large-menu mw-100"
-            smallMenuClassName="small-menu mw-100"
+            menuOpenButton = {<i className = "fas fa-bars" ></i> }
+            menuCloseButton = {<i className = {classnames("fas fa-times-circle" )}></i> }
+            changeMenuOn = "1000px"
+            largeMenuClassName = { classnames("large-menu mw-100 " )}
+            smallMenuClassName = { classnames("small-menu mw-100 ", {"navbar--hidden": !this.state.visible} )}
+
             menu = {
-              <Menu className = 'flex justify-start content-center pv1 flex-m flex-column-m '>
+              <Menu className = 'flex justify-start content-center pv1 flex-m flex-column-m ' >
                 <a data-placement="center"  rel="noopener noreferrer" className = 'text-success f3 self-center center mv2 pa2 fw9 h3-m f4-ns mh1-ns' href = '#top'>  Karin Povolozki-Rabichev  </a>
                 <ul className = 'navItems pv2 mv2 mr6 f4 pt-1-m center-m f5-ns mv0-ns mr1-ns '>
                   <li className = {'nav-all di mh4 white ' + this.state.tabColor1}>

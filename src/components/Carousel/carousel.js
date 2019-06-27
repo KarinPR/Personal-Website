@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const styles = {
   wrapper: {
-    width: 'calc(100% - 20px)',
+    width: '17rem',
     height: 'calc(100% + 20px)',
     position: 'relative',
   },
@@ -255,7 +255,7 @@ class Carousel extends React.Component {
   }
 
   updateFrameSize (cb) {
-    const { width, height } = window.getComputedStyle(this.refs.wrapper)
+    const { width, height } = this.mounted ? window.getComputedStyle(this.refs.wrapper) : '200px'
     this.setState({
       frameWidth: parseFloat(width.split('px')[0]),
       frameHeight: parseFloat(height.split('px')[0])

@@ -1,6 +1,18 @@
 html {
 	font-size: calc(100vw / 100) !important;
 }
+.collapsing-out {
+    animation: hide_navbar_collapse .2s ease forwards; 
+}
+@keyframes hide_navbar_collapse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: 100% 0; }
+  to {
+    opacity: 0;
+    transform: scale(0.95); } 
+}
 .text-on-back {
     font-size: 4rem;
     margin-bottom: 50px;
