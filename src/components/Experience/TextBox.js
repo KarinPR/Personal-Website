@@ -9,11 +9,11 @@ const TextBox = ( {imgSrc, title , time, content} ) => {
             <div className = "work-meta fl w-100 relative pv4 z-4">
                 <h3 className = 'white tc ttu'> {title} </h3>
                 <h4 className = 'pt2 pb3 relative  tc'><span > {time} </span></h4>
-                <div className = 'tj ph5 pl2-s'>
+                <div className = 'tj ph5 ph2-s'>
                 	<ul className = 'list items-center '>
                 		{
                 			content.map( (item, index) => {
-                				return <li key = {index}  style = {{textIndent: '-1.75em'}}><i className = "far fa-hand-point-right lh-solid"></i> {item} </li>
+                				return <li key = {index}  style = {{textIndent: '-1em'}}><i className = "far fa-hand-point-right lh-solid"></i>{item}</li>
                 			})
                 		}
                 			                		

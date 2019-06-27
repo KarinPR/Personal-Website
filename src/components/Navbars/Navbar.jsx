@@ -79,7 +79,7 @@ class PagesNavbar extends React.Component {
     let width = window.outerWidth;
 
 
-    if (width > 1500) {
+    if (width > 1550) {
       if (scroll >= 0 && scroll < 800) {
         this.setState ({ 
           tabColor1 : '',
@@ -183,6 +183,15 @@ class PagesNavbar extends React.Component {
         })
       }  
     }
+    if (width < 1000) {
+      this.setState ({ 
+        tabColor1 : '',
+        tabColor2 : '',
+        tabColor3 : '',
+        tabColor4 : '',
+        tabColor5 : '',
+      })
+    }
   }
 
 
@@ -206,7 +215,7 @@ class PagesNavbar extends React.Component {
   handleScroll = () => {
     const { prevScrollpos } = this.state;
     const currentScrollPos = window.scrollY;
-    const visible =  1 > Math.abs(prevScrollpos - currentScrollPos);
+    const visible =  5 > Math.abs(prevScrollpos - currentScrollPos);
     this.setState({
       collapseOpen: this.state.collapseOpen,
       prevScrollpos: currentScrollPos,
@@ -224,8 +233,8 @@ class PagesNavbar extends React.Component {
             menuOpenButton = {<i className = "fas fa-bars" ></i> }
             menuCloseButton = {<i className = {classnames("fas fa-times-circle" )}></i> }
             changeMenuOn = "1000px"
-            largeMenuClassName = { classnames("large-menu mw-100 " )}
-            smallMenuClassName = { classnames("small-menu mw-100 ", {"navbar--hidden": !this.state.visible} )}
+            largeMenuClassName = { classnames("large-menu mw-100 text-success" )}
+            smallMenuClassName = { classnames("small-menu mw-100 text-success", {"navbar--hidden": !this.state.visible} )}
 
             menu = {
               <Menu className = 'flex justify-start content-center pv1 flex-m flex-column-m ' >
