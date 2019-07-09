@@ -141,18 +141,18 @@ class About extends React.Component {
 			                <Col className = 'aboutme-text mv3' lg = "6" md = "12" sm = "12">
 				                <h1 className="profile-title text-left"> </h1>
 				                <h5 className="text-on-back tc" id= 'about' > About Me</h5>
-				                <div className="profile-description tj fw9 bg-darker pa4 o-80 f5 f7-m z-2" style= {{paddingBottom: '3vh'}}>
+				                <div className="profile-description tj fw9 bg-darker pa4 o-80 f5 f7-m z-2 lh-copy" style= {{paddingBottom: '3vh'}}>
 				                	<p>
 				                		Since I'm not writing an autobiography I'll keep this simple. <span> I love learning things</span>. From a not-so-humble experience as a <span>Chemist</span> to entering the world of <span>Web Development</span>, my life has taken more than a few turns. But one thing has remained constant- <span>the drive and passion to learn</span>. 
 				                	</p>
 				                	<p>
-										As you'll see from my varied projects, I am gaining experience with Front-End skills as <span>React.js</span>, <span>HTML5,</span> and <span>CSS3</span>, and also Back-End such as <span>Node.js</span>, <span>Express.js</span> as well as <span>PostgreSQL</span>. I consider myself a perpetual student of life and continue to develop as a... well, <span>DEVELOPER</span>. With a desire to create amazing stuff and a hunch for aesthetics, I see myself as a generalist with a desire to specialize. 
+										As you'll see from my varied projects, I am gaining experience with Front-End skills as <span>React.js</span>, <span>HTML5,</span> and <span>CSS3</span>, and also Back-End knowledge such as <span>Node.js</span>, <span>Express.js</span> as well as <span>PostgreSQL</span>. I consider myself a perpetual student of life and continue to develop as a... well, <span>DEVELOPER</span>. With a desire to create amazing stuff and a hunch for aesthetics, I see myself as a generalist with a desire to specialize. 
 									</p>
 									<p>
-										In order to discover where my path will lead- I started coding. I have several projects that I worked on. For a sneak peek, feel free to visit my <span><a className = 'github' href = 'https://github.com/KarinPR'>GitHub</a></span> page. 	
+										In order to discover where my path will lead- I started coding. I have several projects that I worked on. For a sneak peek, feel free to visit my <span><a className = 'github' target="_blank" rel="noopener noreferrer" href = 'https://github.com/KarinPR'>GitHub</a></span> page. 	
 									</p>
 									<p>
-										I am currently unemployed and looking for my first position as a <span> FULL - STACK / FRONT - END / BACK - END DEVELOPER</span>, in the meantime, gaining useful knowledge and experience. When I'm not studying or working on projects I enjoy playing with my two kids (5 and 2/3), taking a walk, and occasionally still play video games with my husband. Although, with two young kids and a fierce desire to become a developer, there is less and less time for gaming. 
+										I looking for my first position as a <span>  FRONT - END DEVELOPER</span>, in the meantime, gaining useful knowledge and experience. When I'm not studying or working on projects I enjoy playing with my two kids (5 and 2/3), taking a walk, and occasionally still play video games with my husband. Although, with two young kids and a fierce desire to become a developer, there is less and less time for gaming. 
 									</p>
 									<p>
 										Anyway, too much talking. Let's get down to business!...
