@@ -33,7 +33,7 @@
   "homepage": "https://github.com/creativetimofficial/blk-design-system-react#readme",
   "dependencies": {
     "cannon": "^0.6.2",
-    "chart.js": "2.7.3",
+    "chart.js": "2.9.4",
     "classnames": "2.2.6",
     "google-map-react": "^1.1.4",
     "moment": "2.24.0",
